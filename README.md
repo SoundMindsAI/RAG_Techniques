@@ -2,7 +2,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/nir-diamant-759323134/)
 [![Twitter](https://img.shields.io/twitter/follow/NirDiamantAI?label=Follow%20@NirDiamantAI&style=social)](https://twitter.com/NirDiamantAI)
-[![Discord](https://img.shields.io/badge/Discord-Join%20our%20community-7289da?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/wh3rVazc)
+[![Discord](https://img.shields.io/badge/Discord-Join%20our%20community-7289da?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/cA6Aa4uyDX)
 
 <a href="https://app.commanddash.io/agent/github_NirDiamant_RAG_Techniques"><img src="https://img.shields.io/badge/AI-Code%20Agent-EB9FDA"></a>
 
@@ -20,7 +20,7 @@ Our goal is to provide a valuable resource for researchers and practitioners loo
 
 This repository thrives on community contributions! Join our Discord community — the central hub for discussing and managing contributions to this project:
 
-[RAG Techniques Discord Community](https://discord.com/invite/wh3rVazc)
+[RAG Techniques Discord Community](https://discord.gg/cA6Aa4uyDX)
 
 Whether you're an expert or just starting out, your insights can shape the future of RAG. Join us to propose ideas, get feedback, and collaborate on innovative techniques. For contribution guidelines, please refer to our [CONTRIBUTING.md](https://github.com/NirDiamant/RAG_Techniques/blob/main/CONTRIBUTING.md) file. Let's advance RAG technology together!
 
@@ -47,8 +47,10 @@ Introducing basic RAG techniques ideal for newcomers.
 #### Implementation 🛠️
 Start with basic retrieval queries and integrate incremental learning mechanisms.
 
-### 2. [Context Enrichment Techniques 📝](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/context_enrichment_window_around_chunk.ipynb)
-
+### 2. Context Enrichment Techniques 📝
+- **[LangChain](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/context_enrichment_window_around_chunk.ipynb)**
+- **[LlamaIndex](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/context_enrichment_window_around_chunk_with_llamaindex.ipynb)**
+  
 #### Overview 🔎
 Enhancing retrieval accuracy by embedding individual sentences and extending context to neighboring sentences.
 
@@ -66,8 +68,11 @@ Applying various filtering techniques to refine and improve the quality of retri
 - 📄 **Content Filtering:** Remove results that don't match specific content criteria or essential keywords.
 - 🌈 **Diversity Filtering:** Ensure result diversity by filtering out near-duplicate entries.
 
-### 4. [Fusion Retrieval 🔗](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/fusion_retrieval.ipynb)
+### 4. Fusion Retrieval 🔗
 
+- **[LangChain](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/fusion_retrieval.ipynb)**
+- **[LlamaIndex](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/fusion_retrieval_with_llamaindex.ipynb)**
+ 
 #### Overview 🔎
 Optimizing search results by combining different retrieval methods.
 
